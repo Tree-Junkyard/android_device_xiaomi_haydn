@@ -1,0 +1,9 @@
+device/xiaomi/sm8350-common
+kernel/xiaomi/sm8350
+vendor/xiaomi/haydn
+vendor/xiaomi/sm8350-common
+hardware/xiaomi
+hardware/lineage/compat
+device/qcom/sepolicy_vndr-legacy-um
+vendor/xiaomi/haydn-miuicamera
+vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um

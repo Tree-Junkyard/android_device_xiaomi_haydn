@@ -15,6 +15,9 @@ TARGET_OTA_ASSERT_DEVICE := haydn,haydnin
 # Board
 TARGET_BOOTLOADER_BOARD_NAME := haydn
 
+# Device properties
+TARGET_PRODUCT_PROP := $(DEVICE_PATH)/product.prop
+
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/hidl/manifest.xml
 
