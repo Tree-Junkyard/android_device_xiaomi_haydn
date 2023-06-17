@@ -2,7 +2,7 @@ echo 'Starting to clone stuffs needed to build for Haydn'
 
 # Device common
 echo 'Cloning Common device tree'
-git clone --depth=1 https://github.com/Astridxx/android_device_xiaomi_sm8350-common.git -b Elixir-13 device/xiaomi/sm8350-common
+git clone --depth=1 https://github.com/Tree-Junkyard/android_device_xiaomi_sm8350-common -b Elixir-13 device/xiaomi/sm8350-common
 
 # Kernel
 echo 'Cloning Kernel tree'
@@ -22,7 +22,7 @@ rm -rf hardware/xiaomi && git clone --depth=1 https://github.com/LineageOS/andro
 
 # Compat
 echo 'Cloning Lineage compat'
-rm -rf hardware/lineage/compat && git clone --depth=1 https://github.com/LineageOS/android_hardware_lineage_compat.git -b lineage-20 hardware/lineage/compat
+rm -rf hardware/lineage/compat && git clone --depth=1 https://github.com/LineageOS/android_hardware_lineage_compat.git hardware/lineage/compat
 
 # Sepolicy
 echo 'Cloning Sepolicy vndr-legacy-um'
