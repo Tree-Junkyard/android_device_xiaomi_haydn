@@ -32,10 +32,6 @@ rm -rf device/qcom/sepolicy_vndr-legacy-um && git clone --depth=1 https://github
 echo 'Cloning Firmware'
 git clone --depth=1 https://gitlab.com/Alucard_Storm/vendor_xiaomi_haydn-firmware.git -b thirteen vendor/xiaomi/haydn-firmware
 
-# Camera
-echo 'Cloning Leica camera'
-git clone --depth=1 https://gitlab.com/Alucard_Storm/haydn-miuicamera.git -b thirteen-leica vendor/xiaomi/haydn-miuicamera
-
 # Ipa
 echo 'Cloning Data-ipa-cfg-mgr-legacy-um'
 rm -rf vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um && git clone --depth=1 https://github.com/LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr.git -b lineage-20.0-legacy-um vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um
