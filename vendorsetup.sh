@@ -6,7 +6,7 @@ git clone --depth=1 https://github.com/Tree-Junkyard/android_device_xiaomi_sm835
 
 # Kernel
 echo 'Cloning Kernel tree'
-git clone https://github.com/Astridxx/android_kernel_xiaomi_sm8350.git --recursive --depth=1 -b lineage-20 kernel/xiaomi/sm8350
+git clone https://github.com/Astridxx/android_kernel_xiaomi_sm8350.git --recursive --depth=1 -b Octavi-13 kernel/xiaomi/sm8350
 
 # Vendor
 echo 'Cloning Vendor tree'
