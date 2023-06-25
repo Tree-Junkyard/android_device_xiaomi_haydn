@@ -24,6 +24,10 @@ rm -rf hardware/xiaomi && git clone --depth=1 https://github.com/LineageOS/andro
 echo 'Cloning Lineage compat'
 rm -rf hardware/lineage/compat && git clone --depth=1 https://github.com/LineageOS/android_hardware_lineage_compat.git hardware/lineage/compat
 
+# Camera
+echo 'Cloning Leica camera'
+git clone --depth=1 https://gitlab.com/Alucard_Storm/haydn-miuicamera.git -b thirteen-leica vendor/xiaomi/haydn-miuicamera
+
 # Sepolicy
 echo 'Cloning Sepolicy vndr-legacy-um'
 rm -rf device/qcom/sepolicy_vndr-legacy-um && git clone --depth=1 https://github.com/Astridxx/android_device_qcom_sepolicy_vndr.git -b elixir-legacy-um device/qcom/sepolicy_vndr-legacy-um
