@@ -9,6 +9,9 @@ DEVICE_PATH := device/xiaomi/haydn
 # Inherit from sm8350-common
 include device/xiaomi/sm8350-common/BoardConfigCommon.mk
 
+# Inherit from proprietary files for miuicamera
+-include vendor/xiaomi/haydn-miuicamera/products/board.mk
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := haydn,haydnin
 
